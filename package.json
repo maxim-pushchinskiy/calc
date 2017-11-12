@@ -1,0 +1,54 @@
+{
+  "name": "calc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "react-redux": "^5.0.6",
+    "redux": "^3.7.2"
+  },
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "clean-webpack-plugin": "^0.1.16",
+    "cross-env": "^4.0.0",
+    "css-loader": "^0.28.1",
+    "extended-define-webpack-plugin": "^0.1.3",
+    "extract-text-webpack-plugin": "^2.1.0",
+    "file-loader": "^0.11.2",
+    "html-loader": "^0.4.5",
+    "html-webpack-plugin": "^2.28.0",
+    "node-sass": "^4.5.2",
+    "postcss-flexibility": "^1.1.1",
+    "postcss-loader": "^1.3.3",
+    "react-hot-loader": "^3.0.0-beta.7",
+    "resolve-url-loader": "^2.0.2",
+    "sass-loader": "^6.0.5",
+    "style-loader": "^0.17.0",
+    "url-loader": "^0.5.8",
+    "webpack": "^2.5.1",
+    "webpack-dev-server": "^2.4.5",
+    "webpack-notifier": "^1.5.0",
+    "webpack-stream": "^3.2.0"
+  },
+  "scripts": {
+    "build": "cross-env NODE_ENV=production webpack -p",
+    "serve": "cross-env NODE_ENV=debug webpack-dev-server --inline --hot --port 3000 --history-api-fallback --host 0.0.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxim-pushchinskiy/calc.git"
+  },
+  "author": "Pushchinskiy M",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maxim-pushchinskiy/calc/issues"
+  },
+  "homepage": "https://github.com/maxim-pushchinskiy/calc#readme"
+}
