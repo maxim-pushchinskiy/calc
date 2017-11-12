@@ -53,4 +53,16 @@ const mapDispatchToProps = (dispatch) => ({
     })
 });
 
+Keys.propTypes = {
+    value: PropTypes.string.isRequired,
+    btns: PropTypes.shape({
+        numbers: PropTypes.arrayOf(PropTypes.string),
+        basicOperations: PropTypes.arrayOf(PropTypes.string),
+        clearValue: PropTypes.arrayOf(PropTypes.string)
+    }).isRequired,
+    changeValue: PropTypes.func.isRequired,
+    clearValue: PropTypes.func.isRequired,
+    calculateNewValue: PropTypes.func.isRequired,
+};
+
 export default connect(mapStateToProps, mapDispatchToProps)(Keys);

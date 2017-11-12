@@ -22,7 +22,7 @@ const calculator = (state = initialState, action) => {
         case 'CALCULATE_NEW_VALUE':
             return {
                 ...state,
-                value: eval(action.value) === Infinity ? '0' : eval(action.value)
+                value: eval(action.value) === Infinity ? '0' : `${eval(action.value)}`
             };
         default:
             return state;
