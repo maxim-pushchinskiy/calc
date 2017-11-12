@@ -1,0 +1,85 @@
+.cals {
+  width: 300px;
+  background: black;
+  padding: 1rem;
+
+  button {
+    border-radius: 50%;
+    width: 4rem;
+    height: 4rem;
+    border: none;
+    font-size: 3rem;
+    margin-bottom: 0.3rem;
+    background: darkgray;
+    color: white;
+    outline: none;
+
+    &:hover {
+      cursor: pointer;
+    }
+
+    &:active {
+      color: black;
+    }
+  }
+}
+
+.display {
+  width: 100%;
+  background: black;
+  font-size: 4rem;
+  border: none;
+  outline: none;
+  text-align: end;
+  padding: 2px;
+  color: white;
+}
+
+.keys {
+  position: relative;
+  display: flex;
+  padding-top: 5rem;
+
+  .numbers {
+    display: flex;
+    flex-flow: wrap;
+
+    button {
+      margin-right: 0.2rem;
+
+      &:last-child {
+        background: orange;
+        color: white;
+      }
+    }
+
+
+  }
+
+  .basicOperations {
+    display: flex;
+    flex-direction: column;
+
+    button {
+      background: orange;
+      color: white;
+    }
+  }
+
+  .clearValue {
+    position: absolute;
+    top: 0.5rem;
+    right: 0;
+
+    button {
+      background: lightgray;
+      color: black;
+
+      &:active {
+        color: white;
+      }
+    }
+  }
+}
+
+

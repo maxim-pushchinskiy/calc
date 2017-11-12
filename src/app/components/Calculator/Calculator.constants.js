@@ -1,0 +1,3 @@
+export const CHANGE_VALUE = 'CHANGE_VALUE';
+export const CLEAR_VALUE = 'CLEAR_VALUE';
+export const CALCULATE_NEW_VALUE = 'CALCULATE_NEW_VALUE';
